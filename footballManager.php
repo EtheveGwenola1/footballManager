@@ -41,7 +41,7 @@ if(isset($_GET["action"])){
 		?>
 			<!-- affiche le nom de l'équipe et le nbr de point !-->
 			<h2><?php echo $equipe->nom_equipe;?></h2>
-			<h4><?php echo $equipe->points_equipe;?></h4>
+			<h4><?php echo $equipe->points_equipe. "points";?></h4>
 
 		<?php
 		}
@@ -54,6 +54,7 @@ if(isset($_GET["action"])){
 		while ($joueur = $select->fetch(PDO::FETCH_OBJ)){
 		?>
 			<h2><?php echo $joueur->nom_joueur;?></h2>
+			<h4><?php if($joueur->titulaire_joueur !=null){ echo "titulaire";}?></h4>
 		<?php
 
 		}
@@ -61,8 +62,4 @@ if(isset($_GET["action"])){
 }
 
 
-
-
 ?>
-
-

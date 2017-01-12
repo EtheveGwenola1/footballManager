@@ -15,7 +15,7 @@ USE footballManager;
 CREATE TABLE equipe(
         id_equipe     int (11) Auto_increment  NOT NULL ,
         nom_equipe    Varchar (25) ,
-        points_equipe Int ,
+        points_equipe Int NOT NULL,
         PRIMARY KEY (id_equipe )
 )ENGINE=InnoDB;
 
