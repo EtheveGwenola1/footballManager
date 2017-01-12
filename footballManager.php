@@ -54,7 +54,7 @@ if(isset($_GET["action"])){
 		while ($joueur = $select->fetch(PDO::FETCH_OBJ)){
 		?>
 			<h2><?php echo $joueur->nom_joueur;?></h2>
-			<h4><?php if($joueur->titulaire_joueur !=null){ echo "titulaire";}?></h4>
+			<h4><?php if($joueur->titulaire_joueur !=0){ echo "titulaire";}?></h4>
 		<?php
 
 		}
