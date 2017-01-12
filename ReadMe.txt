@@ -1,1 +1,2 @@
-le dossier différencie la partie SQL, la partie MCD/MLD/MPD, le cahier des charges, 
+Football manager est un petit projet de gestion d'équipe de foot et de joueurs qui permet de faire des match et des transfert de joueur
+
