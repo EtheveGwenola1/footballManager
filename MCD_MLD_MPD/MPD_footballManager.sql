@@ -92,3 +92,21 @@ INSERT INTO joueur (nom_joueur,titulaire_joueur,poste_joueur,id_equipe) VALUES
 ('Costil',0,'GAR',1),
 ('Sagna',1,'DEF',1),
 ('Koscielny',1,'DEF',1);
+
+INSERT INTO joueur (nom_joueur,titulaire_joueur,poste_joueur,id_equipe) VALUES 
+('Hector',1,'DEF',2),
+('Sané',1,'MIL',2),
+('Mustafi',1,'MIL',2),
+('Schürrle',1,'ATT',2),
+('Kimmich',1,'ATT',2),
+('Khedira',1,'GAR',2),
+('Götze',0,'DEF',2),
+('Reus',1,'MIL',2),
+('Kroos',1,'DEF',2),
+('Podolski',0,'ATT',2),
+('Boateng',1,'ATT',2),
+('Draxler',1,'GAR',2),
+('Hummels',1,'MIL',2),
+('Müller',0,'GAR',2),
+('Neuer',1,'DEF',2),
+('Özil',1,'DEF',2);

@@ -9,12 +9,14 @@ $DB = new DB();
 	<title></title>
 </head>
 <body>
+	<div align="center">
 	<h1>Football Manager</h1>
 
 	<!-- Le href sert a définir le bout de code qui doit être executer quand on clique sur le lien !-->
 	<a href="?action=showEquipe">Les equipes</a>
 	<a href="?action=showJoueur">Les joueurs</a>
-
+	<a href="?action=match">Match</a>
+	</div>
 </body>
 </html>
 
@@ -59,7 +61,41 @@ if(isset($_GET["action"])){
 
 		}
 	}
+
+	if($_GET["action"] == "match"){
+		$select = $bdd->prepare("SELECT * FROM equipe");
+		$select->execute();
+
+		?>
+		<br>
+		<div align="center">
+		<form>
+		<legend>Equipe 1</legend>
+		<select>
+			<option>France</option>
+			<option>Allemagne</option>
+			<option>Italie</option>
+			<option>Angleterre</option>
+			<option>Espagne</option>
+		</select>
+		</form>
+		<br>
+
+		<h4>Adversaire:</h4>
+
+		<br>
+		<form>
+		<legend>Equipe 2</legend>
+		<select>
+			<option>France</option>
+			<option>Allemagne</option>
+			<option>Italie</option>
+			<option>Angleterre</option>
+			<option>Espagne</option>
+		</select>
+		</form>
+		</div>
+		<?php
+	}
 }
-
-
 ?>
