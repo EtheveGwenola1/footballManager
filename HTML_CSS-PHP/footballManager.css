@@ -1,0 +1,11 @@
+body{
+	background-color: white;
+}
+
+
+nav{
+	background-color: #42BEF7;
+	border-radius: 15px;
+
+	padding: 3px 5px 3px 5px;
+}
