@@ -1,0 +1,41 @@
+USE footballManager;
+
+INSERT INTO equipe ('nom_equipe') VALUES ('France');
+INSERT INTO equipe ('nom_equipe') VALUES ('Allemagne');
+INSERT INTO equipe ('nom_equipe') VALUES ('Italie');
+INSERT INTO equipe ('nom_equipe') VALUES ('Angleterre');
+INSERT INTO equipe ('nom_equipe') VALUES ('Espagne');
+
+INSERT INTO joueur ('nom_joueur', 'id_equipe') VALUES ('Benzema', 1);
+INSERT INTO joueur ('nom_joueur', 'id_equipe') VALUES ('Griezmann', 1);
+INSERT INTO joueur ('nom_joueur', 'id_equipe') VALUES ('Pogba', 1);
+INSERT INTO joueur ('nom_joueur', 'id_equipe') VALUES ('Payet', 1);
+INSERT INTO joueur ('nom_joueur', 'id_equipe') VALUES ('Giroud', 1);
+INSERT INTO joueur ('nom_joueur', 'id_equipe') VALUES ('Lloris', 1);
+INSERT INTO joueur ('nom_joueur', 'id_equipe') VALUES ('Evra', 1);
+INSERT INTO joueur ('nom_joueur', 'id_equipe') VALUES ('Sissoko', 1);
+INSERT INTO joueur ('nom_joueur', 'id_equipe') VALUES ('Ben Arfa', 1);
+INSERT INTO joueur ('nom_joueur', 'id_equipe') VALUES ('Gignac', 1);
+INSERT INTO joueur ('nom_joueur', 'id_equipe') VALUES ('Martial', 1);
+INSERT INTO joueur ('nom_joueur', 'id_equipe') VALUES ('Valbuena', 1);
+INSERT INTO joueur ('nom_joueur', 'id_equipe') VALUES ('Matuidi', 1);
+INSERT INTO joueur ('nom_joueur', 'id_equipe') VALUES ('Gameiro', 1);
+INSERT INTO joueur ('nom_joueur', 'id_equipe') VALUES ('Varane', 1);
+INSERT INTO joueur ('nom_joueur', 'id_equipe') VALUES ('Koscielny', 1);
+
+INSERT INTO joueur ('nom_joueur', 'id_equipe') VALUES ('Özil', 2);
+INSERT INTO joueur ('nom_joueur', 'id_equipe') VALUES ('Neuer', 2);
+INSERT INTO joueur ('nom_joueur', 'id_equipe') VALUES ('Müller', 2);
+INSERT INTO joueur ('nom_joueur', 'id_equipe') VALUES ('Götze', 2);
+INSERT INTO joueur ('nom_joueur', 'id_equipe') VALUES ('Reus', 2);
+INSERT INTO joueur ('nom_joueur', 'id_equipe') VALUES ('Kroos', 2);
+INSERT INTO joueur ('nom_joueur', 'id_equipe') VALUES ('Podolski', 2);
+INSERT INTO joueur ('nom_joueur', 'id_equipe') VALUES ('Boateng', 2);
+INSERT INTO joueur ('nom_joueur', 'id_equipe') VALUES ('Draxler', 2);
+INSERT INTO joueur ('nom_joueur', 'id_equipe') VALUES ('Hummels', 2);
+INSERT INTO joueur ('nom_joueur', 'id_equipe') VALUES ('Khedira', 2);
+INSERT INTO joueur ('nom_joueur', 'id_equipe') VALUES ('Kimmich', 2);
+INSERT INTO joueur ('nom_joueur', 'id_equipe') VALUES ('Schürrle', 2);
+INSERT INTO joueur ('nom_joueur', 'id_equipe') VALUES ('Mustafi', 2);
+INSERT INTO joueur ('nom_joueur', 'id_equipe') VALUES ('Sané', 2);
+INSERT INTO joueur ('nom_joueur', 'id_equipe') VALUES ('Hector', 2);
