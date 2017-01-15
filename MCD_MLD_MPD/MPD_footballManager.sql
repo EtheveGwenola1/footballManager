@@ -40,7 +40,7 @@ CREATE TABLE joueur(
 
 CREATE TABLE est_transfere(
         montant        Decimal (25) ,
-        date_transfert Datetime ,
+        date_transfert Date ,
         id_joueur      Int NOT NULL ,
         id_equipe      Int NOT NULL ,
         PRIMARY KEY (id_joueur ,id_equipe )
@@ -110,3 +110,19 @@ INSERT INTO joueur (nom_joueur,titulaire_joueur,poste_joueur,id_equipe) VALUES
 ('Müller',0,'GAR',2),
 ('Neuer',1,'DEF',2),
 ('Özil',1,'DEF',2);
+
+SELECT est_transfere.id_joueur, est_transfere.montant, est_transfere.id_equipe, joueur.nom_joueur, equipe.nom_equipe
+FROM est_transfere
+INNER JOIN joueur ON est_transfere.id_joueur = joueur.nom_joueur
+INNER JOIN equipe ON est_transfere.id_equipe = equipe.nom_equipe;
+
+
+SELECT joueur.nom_joueur, joueur.poste_joueur, joueur.titulaire_joueur, equipe.nom_equipe  
+FROM joueur 
+INNER JOIN equipe ON joueur.id_equipe = equipe.id_equipe 
+ORDER BY equipe.nom_equipe;
+
+SELECT est_transfere.montant, joueur.nom_joueur, equipe.nom_equipe
+FROM est_transfere
+INNER JOIN joueur ON est_transfere.id_joueur = joueur.id_joueur
+INNER JOIN equipe ON joueur.id_equipe = equipe.id_equipe;

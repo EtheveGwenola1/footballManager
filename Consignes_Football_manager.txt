@@ -1,0 +1,15 @@
+1 -> HTML / CSS / JS / PHP
+2 -> BDD MySQL
+3 -> Football manager
+		. x equipes
+		. x joueurs
+		. transfert de joueurs (avec montant)
+		. choix des joueurs titulaires pour le match
+		. simulation du match avec génération du score
+		. calcul des points par équipe
+
+		1 -> CDC
+DOC ->  2 -> Conventions de nomage (PSR)
+		3 ->  MCD - MLD - MPD
+4 -> Dépôt GitHub
+5-> Dev 
