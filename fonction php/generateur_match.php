@@ -2,7 +2,7 @@
 //générateur de match aléatoire
 
 require 'connexion_bdd.php';
-require 'footballManager.php';
+require 'index.php';
 ?>
 <div align="center">
 	<h1>Générateur de match aléatoire</h1>

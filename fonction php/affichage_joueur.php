@@ -1,6 +1,6 @@
 <?php
 require 'connexion_bdd.php';
-require 'footballManager.php';
+require 'index.php';
 
 if(isset($_GET["action"])){
 	if($_GET["action"] == "showJoueur"){
