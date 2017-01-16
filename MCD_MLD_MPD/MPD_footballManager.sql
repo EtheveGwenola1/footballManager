@@ -111,6 +111,60 @@ INSERT INTO joueur (nom_joueur,titulaire_joueur,poste_joueur,id_equipe) VALUES
 ('Neuer',1,'DEF',2),
 ('Özil',1,'DEF',2);
 
+INSERT INTO joueur (nom_joueur,titulaire_joueur,poste_joueur,id_equipe) VALUES 
+('Buffon',1,'DEF',3),
+('De Rossi',1,'MIL',3),
+('Chiellini',1,'MIL',3),
+('Bonucci',1,'ATT',3),
+('Barzagli',1,'ATT',3),
+('Candreva',1,'GAR',3),
+('Motta',0,'DEF',3),
+('Giaccherini',1,'MIL',3),
+('Darmian',1,'DEF',3),
+('De Sciglio',0,'ATT',3),
+('Parolo',1,'ATT',3),
+('El Shaarawy',1,'GAR',3),
+('Florenzi',1,'MIL',3),
+('Sirigu',0,'GAR',3),
+('Immobile',1,'DEF',3),
+('Pelle',1,'DEF',3);
+
+INSERT INTO joueur (nom_joueur,titulaire_joueur,poste_joueur,id_equipe) VALUES 
+('Rooney',1,'DEF',4),
+('Hart',1,'MIL',4),
+('Milner',1,'MIL',4),
+('Cahill',1,'ATT',4),
+('Wilshere',1,'ATT',4),
+('Smalling',1,'GAR',4),
+('Henderson',0,'DEF',4),
+('Lallana',1,'MIL',4),
+('Sterling',1,'DEF',4),
+('Barkley',0,'ATT',4),
+('Sturridge',1,'ATT',4),
+('Walker',1,'GAR',4),
+('Kane',1,'MIL',4),
+('Clyne',0,'GAR',4),
+('Alli',1,'DEF',4),
+('Dier',1,'DEF',4);
+
+INSERT INTO joueur (nom_joueur,titulaire_joueur,poste_joueur,id_equipe) VALUES 
+('Casillas',1,'DEF',5),
+('Ramos',1,'MIL',5),
+('Iniesta',1,'MIL',5),
+('Fabregas',1,'ATT',5),
+('Silva',1,'ATT',5),
+('Busquets',1,'GAR',5),
+('Piqué',0,'DEF',5),
+('Pedro',1,'MIL',5),
+('Alba',1,'DEF',5),
+('Koke',0,'ATT',5),
+('Juanfran',1,'ATT',5),
+('Azpilicueta',1,'GAR',5),
+('De Gea',1,'MIL',5),
+('Alcantara',0,'GAR',5),
+('Morata',1,'DEF',5),
+('Nolito',1,'DEF',5);
+
 SELECT est_transfere.id_joueur, est_transfere.montant, est_transfere.id_equipe, joueur.nom_joueur, equipe.nom_equipe
 FROM est_transfere
 INNER JOIN joueur ON est_transfere.id_joueur = joueur.nom_joueur
